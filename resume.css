@@ -1,0 +1,93 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body */
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background: #f8f9fa;
+  }
+  
+  /* Header Section */
+  header {
+    background: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-size: 24px;
+  }
+  
+  header p {
+    font-size: 14px;
+  }
+  
+  /* Navigation Menu */
+  nav {
+    background: #555;
+    padding: 10px 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s ease;
+  }
+  
+  nav a:hover {
+    color: #ffcccb;
+  }
+  
+  /* Main Content */
+  .container {
+    width: 80%;
+    margin: 20px auto;
+  }
+  
+  /* Section Styles */
+  .section {
+    margin: 20px 0;
+    padding: 15px;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .section table {
+    width: 100%;
+    border: 1px solid #ddd;
+    margin: 10px 0;
+    border-collapse: collapse;
+  }
+  
+  .section table th,
+  .section table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  /* Footer Section */
+  footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 14px;
+    margin-top: 20px;
+  }
+  
